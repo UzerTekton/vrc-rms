@@ -117,3 +117,57 @@ Release
 
 ## Contact
 Discord: https://discord.gg/yG4HnBM8Du
+
+## ToS checked line by line
+
+We can check the Creator Guidelines (as of 2026-03-01) line by line for compliance:
+
+**✅ Text in bold is commentary.**
+
+> Worlds
+>
+> - Worlds containing “inflammatory” content may not be published to Community Labs or Public status.
+>
+>   - This means things like controversial topics, sensitive, intimate, or provocative content, or extreme horror or “shock” content.  
+>     **✅ VRC RMS has none of these**
+>
+> - Worlds may implement their own moderation systems via our Udon Scripting system, but they must abide by the following guidelines:  
+>   **✅ VRC RMS is a Udon based moderation system**
+>
+>   - You must tell everyone that enters your world that you have rules, and that you will take moderation action if they break them.  
+>     **✅ VRC RMS has built-in rule display about moderation actions**
+>
+>     - You must list your rules at or near the entrance of your world, or have them otherwise easily accessible and visible.  
+>       **✅ World author are instructed to place it near the entrance for display**
+>
+>   - You must tell everyone that is moderated by your system what moderation actions have been applied and why.  
+>     **✅ The rule display explains this, it even follows the moderated person to the jail area so they can read it**
+>
+>   - You may:  
+>    **✅ Note that these are not requirements but permissions**
+>
+>     - Apply a moderation to a user that is misbehaving in that given instance  
+>       **✅ (Again, this is not a requirement but a permission) Moderation is applied based on a consensual deterministic procedure based on agreed rules, and does not rely on a vague definition of "misbehaving". It is worth noting that VRChat already has built-in moderators such as instance owners and group moderators (in group instances) who can moderate the instance on their own (unwritten) terms such as instakicking any person they don't like. This system gives world author the added layer of control to supersede such abuse.**
+>
+>     - Teleport the user into a separate area  
+>       **✅ Yes**
+>
+>     - Prevent the user from interacting with world systems or sending voice  
+>       **✅ Muted only**
+>
+>     - Use an “allow list” to enable certain features in your world  
+>       **✅ Yes, some people are "allow listed" to be Moderators**
+>
+>    - You may not:
+>
+>      - Forcibly change the user's avatar  
+>        **✅ There is no avatar related functions**
+>
+>      - Intentionally crash the user or disrupt their usage of basic VRChat systems  
+>        **✅ There is no such functions**
+>
+>      - Prevent the user from leaving the instance  
+>        **✅ Jailed player are free to leave, in fact the displayed notice explains they can leave**
+>
+>      - Preemptively moderate users by using a static or dynamic “block list” or similar systems  
+>        **✅ There is no preemptive moderation, moderation on the ban list must be authorized by a moderator, if there is no moderator, no action will be taken**
